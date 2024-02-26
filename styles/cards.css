@@ -80,4 +80,26 @@
     }
 }
 
+@media (max-width: 700px) {
+    .card1-title, .card2-title {
+        font-size: 5vw;
+    }
+    .total {
+        display: block;
+    }
+    .card1-box-balance {
+        justify-content: left;
+    }
+    h2 {
+        font-size: 5vw;
+        display: flex;
+        align-items: center;
+    }
+    #icon-view-balance {
+        font-size: 20px;
+    } 
+    .card1-container-balance > p {
+        font-size: 4vw;
+    }
+}
 
