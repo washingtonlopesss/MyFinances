@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/left-bar.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href="../styles/cards.css">
+
+</head>
+<body>
+    <aside class="left-bar">
+        <nav>
+            <div class="options" onclick="navigation()">
+                <i id="icons" class="material-icons" title="Abrir Menu">menu</i>
+                <p class="textOption">Menu</p>
+            </div>
+            <div class="options">
+                <i id="icons" class="material-icons" title="Dashboard">analytics</i>
+                <p class="textOption">Dashboard</p>
+            </div>
+            <div class="options">
+                <i id="icons" class="material-icons" title="Minhas Finanças">account_balance</i>
+                <p class="textOption">Minhas Finanças</p>
+            </div>
+            <div class="options">
+                <i id="icons" class="material-icons" title="Meus Cartões">payment</i>
+                <p class="textOption">Meus Cartões</p>
+            </div>
+            <div class="options">
+                <i id="icons" class="material-icons" title="Movimentação">monetization_on</i>
+                <p class="textOption">Movimentação</p>
+            </div>
+            <div class="options">
+                <i id="icons" class="material-icons" title="Meus Investimentos">trending_up</i>
+                <p class="textOption">Meus Investimentos</p>
+            </div>
+        </nav>
+        <nav class="button-logout">
+            <div class="options">
+                <i id="icons" class="material-icons" title="Minha Conta">account_circle</i>
+                <p class="textOption">Minha Conta</p>
+            </div>
+            <div class="options">
+                <i id="icons" class="material-icons" title="Sair">logout</i>
+                <p class="textOption">Sair</p>
+            </div>
+        </nav>
+    </aside>
+    <main>
+        <h1>Boa noite Washington!</h1>
+        <section class="area-dashboard top-area">
+            <div class="cards card1">
+                <div class="card1-container-balance total">
+                    <h1 class="card1-title" title="Dinheiro + Saldo Total em Conta">Meus Saldos</h1>
+                    <div class="card1-box-balance">
+                        <h2 class="balance" title="Dinheiro + Saldo Total em Conta">R$ 1325,15</h2>
+                        <i id="icon-view-balance" class="material-icons">visibility</i>
+                    </div>
+                </div>
+                <div class="card1-container-balance">
+                    <p>Dinheiro:</p>
+                    <p>R$ 15,25</p>
+                </div>
+                <div class="card1-container-balance">
+                    <p>Contas Bancarias:</p>
+                    <p>R$ 1309,90</p>
+                </div>
+                <div class="card1-container-balance">
+                    <p>Gastos Previstos:</p>
+                    <p>R$ 1300,00</p>
+                </div>
+                <div class="card1-container-balance">
+                    <p>Ganhos:</p>
+                    <p>R$ 300,00</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn1">Adicionar Ganhos</button>
+                    <button class="btn btn2">Adicionar Gasto</button>
+                </div>
+            
+            </div>
+            <div class="cards card2">
+                <h1 class="card2-title">Cartões de Crédito</h1>
+            </div>
+        </section>
+        <section class="area-dashboard bottom-area">
+            <div class="cards card3"></div>
+            <div class="cards card4"></div>
+        </section>
+    </main>
+</body>
+</html>

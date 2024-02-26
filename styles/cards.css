@@ -1,0 +1,83 @@
+.card1-container-balance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    margin-bottom: 10px;
+}
+
+.card1-title, .card2-title {
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 30px;
+}
+
+.card1-box-balance {
+    display: flex;
+    justify-content: right;
+}
+
+.balance {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px;
+}
+
+#icon-view-balance {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: block;
+    margin-top: 15px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    min-height: 35px;
+    border: none;
+    border-radius: none;
+}
+
+.btn1 {
+    background-color: #27AE60;
+}
+
+.btn1:hover {
+    background-color: #24a359;
+}
+
+.btn2 {
+    margin-top: 5px;
+    background-color: #D32F2F;
+}
+
+.btn2:hover {
+    background-color: #c72b2b;
+}
+
+@media (max-height: 700px) {
+    .card1-title, .balance {
+        font-size: 16px;
+        display: block;
+    }
+
+    #icon-view-balance {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .btn {
+        min-height: 30px;
+    }
+}
+
+
