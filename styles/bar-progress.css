@@ -1,0 +1,36 @@
+.container-bar-progress {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background-color: #24a359;
+    margin: 15px 0;
+}
+
+.bar-progress {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.bar-progress:hover {
+    font-size: 15px;
+    z-index: 2;
+}
+
+.bar-progress1 {
+    background-color: #24a359;
+    width: 100%;
+}
+
+.bar-progress2 {
+    background-color: #d4a112;
+    width: 22.05%;
+}
+
+.bar-progress3 {
+    background-color: #D32F2F;
+    width: 15.88%;
+}
